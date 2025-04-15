@@ -6,7 +6,7 @@ public class AmbientController : MonoBehaviour
     private GameManager gameManager;
 
     //Atribbutes
-    public float speed = 5;
+    public float speed = 5; //Used globally
     [SerializeField] private Vector3 startPos;
     [SerializeField] private float repeatWidth;
 

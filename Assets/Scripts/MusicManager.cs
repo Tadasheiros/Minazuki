@@ -9,9 +9,9 @@ public class MusicManager : MonoBehaviour
     private bool intro2Playing = false;
 
     //Audio Source
-    public AudioSource introSource;
-    public AudioSource introGameSource;
-    public AudioSource gameSource;
+    [SerializeField] private AudioSource introSource;
+    [SerializeField] private AudioSource introGameSource;
+    [SerializeField] private AudioSource gameSource;
 
     //Musics
     [SerializeField] private AudioClip introAudioClip1;

@@ -4,12 +4,12 @@ public class PlayerController : MonoBehaviour
 {
     //Player atributtes
     [SerializeField] private float jumpForce = 10;
-    public float move;
+    [SerializeField] private float move;
     [SerializeField] private float speed = 5;
-    public bool isOnGround = true;
+    [SerializeField] private bool isOnGround = true;
     [SerializeField] private bool jumpLand = false;
-    private Rigidbody playerRb;
     [SerializeField] private float attackCooldown = 0.5f;
+    private Rigidbody playerRb;
 
     //Bound to movement
     [SerializeField] private float moveBound = 12f;
